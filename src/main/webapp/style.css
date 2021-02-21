@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #808080;
+}
+nav ul{
+    background-color: #b22222;
+}
+li a {
+    color: white;
+    text-decoration:none;
+}
+label{
+    display:inline-block;
+    width: 60px;
+}
+form{
+    text-align: center;
+}
+.logo{
+    overflow: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+}
+footer{
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid #000000;
+}
+tr{
+    justify-content: space-around;
+    text-align: center;
+}
+main{
+    margin: 0.5rem;
+}
+@media screen and (min-width: 300px){
+    label{
+        width: 100px
+    }
+    input{
+        width: 100px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    li a{
+        display: block;
+        padding: 1rem;
+        font-size: 0.75em;
+    }
+    h2, main{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        font-size: 1em;
+    }
+    table{
+        font-size: 0.6em;
+    }
+    li {
+        width: 33%;
+        text-align: center;
+    }
+    footer {
+        font-size: 0.75em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .logo{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 600px){
+    table{
+        font-size: 1em;
+    }
+    li a, footer, table{
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 1100px){
+    li a,footer, table{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    label{
+        font-size: 2em;
+        width: 200px;
+    }
+    input{
+        width: 500px;
+        font-size: 2em;
+    }
+    .info{
+        font-size: 2em;
+    }
+}
